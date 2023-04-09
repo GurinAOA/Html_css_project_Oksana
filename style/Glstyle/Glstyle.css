@@ -10,12 +10,17 @@
   min-height: 865.55px;
   max-width: 1920px;
   width: 100%;
-  background-color: white;
 }
 .header__container {
   max-width: 1800px;
   width: 100%;
   margin: 0 auto;
+}
+@media (max-width: 360px) {
+  .header__container {
+    width: 100%;
+    padding: 0 40px;
+  }
 }
 .header__container .header__cards {
   display: flex;
@@ -60,6 +65,9 @@
   font-size: 14px;
   line-height: 135%;
   color: #FFFFFF;
+}
+.header__container .signs {
+  margin: 60px auto;
 }
 .header__navigation {
   display: flex;
@@ -119,4 +127,169 @@
 }
 .header .cards {
   max-width: 1920px;
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  min-height: 1178px;
+  max-width: 1920px;
+  width: 100%;
+  background: linear-gradient(white, #E5E5E5);
+}
+.main__container {
+  max-width: 1015px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 360px) {
+  .main__container {
+    width: 100%;
+    padding: 0 20px;
+    background-color: white;
+  }
+}
+.main__container .main__about {
+  max-width: 297px;
+  min-height: 117px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+.main__container .main__about .main__logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main__container .main__about .main__logo-description {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 46px;
+}
+.main__container .main__about .main__title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #222222;
+}
+.main__container .main__image-video {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.main__container .main__image-video .main__common-descr {
+  max-width: 1015px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.main__container .main__image-video .main__common-descr .main__description-left {
+  max-width: 350px;
+}
+@media (max-width: 360px) {
+  .main__container .main__image-video .main__common-descr .main__description-left {
+    width: 100%;
+    margin-right: 100px;
+  }
+}
+.main__container .main__image-video .main__common-descr .main__description-left-logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 438px;
+}
+.main__container .main__image-video .main__common-descr .main__description-left-logo .main__big-logo {
+  max-width: 203px;
+  min-height: 110px;
+  margin: 0 auto;
+}
+.main__container .main__image-video .main__common-descr .main__description-left-logo .main__big-logo-text {
+  max-width: 350px;
+  min-height: 205px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #616161;
+  text-align: left;
+  margin-top: 33px;
+}
+.main__container .main__image-video .main__common-descr .main__wrapper-description-top {
+  max-width: 556px;
+}
+.main__container .main__image-video .main__common-descr .main__description-right {
+  width: 100%;
+  display: flex;
+}
+.main__container .main__image-video .main__common-descr .main__description-right .main__description-colomn {
+  max-width: 255px;
+  margin: 0 30px 39px 0;
+}
+@media (max-width: 360px) {
+  .main__container .main__image-video .main__common-descr .main__description-right .main__description-colomn {
+    width: 100%;
+    margin-right: 100px;
+  }
+}
+.main__container .main__image-video .main__common-descr .main__description-right .main__description-colomn .main__description-colomn-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main__container .main__image-video .main__common-descr .main__description-right .main__description-colomn .main__description-colomn-wrapper .main__description-colomn-picture {
+  margin-right: 20px;
+}
+.main__container .main__image-video .main__common-descr .main__wrapper-description-bottom {
+  display: flex;
+}
+.main__container .main__image-video .main__common-descr .main__wrapper-description-bottom .main__description-colomn-picture {
+  margin-right: 29px;
+}
+.main__container .main__image-video .main__common-descr .main__wrapper-description-bottom .main__descr-colomn {
+  max-width: 255px;
+  min-height: 167px;
+  margin: 0 30px 39px 0;
+}
+.main__container .main__image-video .main__common-descr .main__wrapper-description-bottom .main__descr-colomn .main__description-colomn-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main__container .main__image-video .main__common-descr .main__wrapper-description-bottom .main__descr-colomn .main__description-colomn-wrapper .main__description-colomn-picture {
+  margin-right: 29px;
+}
+.main .main__colomn-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 135%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  align-items: end;
+  max-width: 17px;
+  padding-top: 10px;
+}
+.main .main__colomn-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #616161;
+  text-align: left;
 }/*# sourceMappingURL=Glstyle.css.map */

@@ -1,0 +1,138 @@
+@import '../vars/vars';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+    font-family: $font;
+    min-height: 865.55px;
+    max-width: 1920px;
+    width: 100%;
+    background-color:  
+    white;
+&__container {
+        max-width: 1800px;
+        width: 100%;
+        margin: 0 auto;
+        
+        .header__cards{
+          display: flex;
+          max-width: 1920px;
+          width: 100%;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         
+
+      }
+  .card__w-img{
+      margin-top: 60px;
+      max-width: 580px;
+      min-height: 650px;
+      position: relative;
+      margin-left: 20px;
+      
+     
+
+      
+      .card__gold-part{
+          position: absolute;
+          top: 484px ;
+          background: rgba(209, 169, 84, 0.9);
+          max-width: 580px;
+          width: 100%;
+          min-height: 166px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      .card__slogan{
+          font-family: $font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 37px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin-bottom: 20px;
+      }
+      .card__card-text{
+      font-family: $font;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 135%;
+      color: #FFFFFF;
+      }
+      
+      
+
+  
+  }
+  }
+
+      }
+&__navigation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @media (max-width: 980px) {
+          margin-bottom: 20px;
+        }
+    }
+&__nav {
+        max-width: 774px;
+        width: 100%;
+        .header__nav-list {
+          display: flex;
+          justify-content: space-between;
+          list-style: none;
+          @media (max-width: 980px) {
+            display: none;
+          }
+        .header__link{
+         font-family: $font;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+        text-decoration: none;
+            }
+        .header__link-gold-border{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #D1A954;
+        text-decoration: none;
+            }
+        .header__link-gold{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #D1A954;
+        text-decoration: none;
+        }
+          }
+        }
+        .cards{
+          max-width: 1920px;
+     
+        }
+        
+}
+   
+
+
+
+    

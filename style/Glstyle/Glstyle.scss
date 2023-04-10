@@ -147,7 +147,9 @@
   min-height: 1178px;
   max-width: 1920px;
   width: 100%;
-  background: linear-gradient(white, #E5E5E5);
+  background: linear-gradient(white,#E5E5E5,white,white );
+ 
+ 
  
   &__container{
     max-width: 1015px;
@@ -497,8 +499,15 @@ color: #000000;
 .main__container-paragraph-form{
   max-width: 1920px;
   margin: 0 auto;
+  display: flex;
+
+  .main__container-form{
+    max-width: 273px;
+    
+  }
         .main__container-paragraph-text{
           width: 50%;
+          
           .main__wrapper-text{
             max-width: 529px;
             margin-top: 120px;
@@ -516,6 +525,7 @@ color: #000000;
               margin-top: 60px;
             }
             .main__wrapper-coordinates-icons{
+              margin-right: 20px;
       .main__wrapper-icons{
         display: flex;
         max-width: 273px;
@@ -546,7 +556,7 @@ color: #000000;
           margin-right: 30px;
         }
 
-       
+
 
       }
             }
@@ -572,7 +582,100 @@ color: #616161;
   }
         }
        }
-}  
+       .main__wr-form {
+        width: 50%;
+       .main__container-form{
+        // border: 1px solid #dadada;
+        // height: 52px;
+        // padding: 10px 30px;
+        // vertical-align: bottom;
+        max-width: 529px;
+        margin-top: 134px;
+        width: 100%;
+        min-height: 368px;
+        font-family: $font;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 135%;
+color: #616161;
+.button{
+  background-color: #D1A954;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 12px 35px 11px 36px;
+border: none;
+cursor: pointer;
+margin-top: 70px;
+
+}
+.form__wr-name{
+  margin-bottom: 35px;
+  width: 100%;
+  
+  
+}
+.form__wr-email{
+  margin-bottom: 48px;
+
+
+}
+.form__wr-message{
+ margin-bottom: 209px;
+ 
+ 
+}
+
+
+       }
+      }
+
+
+      .main__instagram{
+        margin: 0 auto;
+        max-width: 364px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        .main__title{
+          margin-top: 242px;
+          margin-bottom: 8px;
+          font-family: $font;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 145%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #222222;
+        }
+        .main__gallery-wrapper-text{
+          margin: 10px 0 43px 0;
+          font-family: $font;
+font-style: normal;
+font-weight: 300;
+font-size: 9px;
+line-height: 11px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #000000;
+        }
+
+      }
+      .main__instaphotos{
+        display: flex;
+        max-width: 1920px;
+        width: 100%;
+        min-height: 304px;
+      
+
+      }
+    }
+
 .footer{
   background-color: white;
   font-family: $font;

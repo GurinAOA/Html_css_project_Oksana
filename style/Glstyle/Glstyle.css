@@ -135,7 +135,7 @@
   min-height: 1178px;
   max-width: 1920px;
   width: 100%;
-  background: linear-gradient(white, #E5E5E5);
+  background: linear-gradient(white, #E5E5E5, white, white);
 }
 .main__container {
   max-width: 1015px;
@@ -452,6 +452,10 @@
 .main .main__container-paragraph-form {
   max-width: 1920px;
   margin: 0 auto;
+  display: flex;
+}
+.main .main__container-paragraph-form .main__container-form {
+  max-width: 273px;
 }
 .main .main__container-paragraph-form .main__container-paragraph-text {
   width: 50%;
@@ -471,6 +475,9 @@
 .main .main__container-paragraph-form .main__container-paragraph-text .main__wrapper-coordinates .main__colomn-title {
   margin-bottom: 20px;
   margin-top: 60px;
+}
+.main .main__container-paragraph-form .main__container-paragraph-text .main__wrapper-coordinates .main__wrapper-coordinates-icons {
+  margin-right: 20px;
 }
 .main .main__container-paragraph-form .main__container-paragraph-text .main__wrapper-coordinates .main__wrapper-coordinates-icons .main__wrapper-icons {
   display: flex;
@@ -515,6 +522,79 @@
   font-size: 14px;
   line-height: 135%;
   color: #616161;
+}
+.main .main__wr-form {
+  width: 50%;
+}
+.main .main__wr-form .main__container-form {
+  max-width: 529px;
+  margin-top: 134px;
+  width: 100%;
+  min-height: 368px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #616161;
+}
+.main .main__wr-form .main__container-form .button {
+  background-color: #D1A954;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 12px 35px 11px 36px;
+  border: none;
+  cursor: pointer;
+  margin-top: 70px;
+}
+.main .main__wr-form .main__container-form .form__wr-name {
+  margin-bottom: 35px;
+  width: 100%;
+}
+.main .main__wr-form .main__container-form .form__wr-email {
+  margin-bottom: 48px;
+}
+.main .main__wr-form .main__container-form .form__wr-message {
+  margin-bottom: 209px;
+}
+.main .main__instagram {
+  margin: 0 auto;
+  max-width: 364px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main__instagram .main__title {
+  margin-top: 242px;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #222222;
+}
+.main .main__instagram .main__gallery-wrapper-text {
+  margin: 10px 0 43px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.main .main__instaphotos {
+  display: flex;
+  max-width: 1920px;
+  width: 100%;
+  min-height: 304px;
 }
 
 .footer {

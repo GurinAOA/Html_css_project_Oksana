@@ -110,29 +110,28 @@
         text-transform: uppercase;
         color: #000000;
         text-decoration: none;
+       
+          
+        
             }
+            .header__link:hover {
+              color: #D1A954;
+              font-weight: 700;
+          }
         .header__link-gold-border{
         font-family: $font;
-        font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 13px;
         line-height: 16px;
+        text-align: center;
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #D1A954;
         text-decoration: none;
+        border: 1px solid rgba(209, 169, 84, 0.9);
+        padding: 7px 9px 6px 9px;
             }
-        .header__link-gold{
-        font-family: $font;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 13px;
-        line-height: 16px;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        color: #D1A954;
-        text-decoration: none;
-        }
+ 
           }
         }
         .cards{
@@ -585,20 +584,11 @@ color: #616161;
        .main__wr-form {
         width: 50%;
        .main__container-form{
-        // border: 1px solid #dadada;
-        // height: 52px;
-        // padding: 10px 30px;
-        // vertical-align: bottom;
         max-width: 529px;
         margin-top: 134px;
         width: 100%;
         min-height: 368px;
-        font-family: $font;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 135%;
-color: #616161;
+       
 .button{
   background-color: #D1A954;
 letter-spacing: 0.05em;
@@ -612,17 +602,38 @@ margin-top: 70px;
 }
 .form__wr-name{
   margin-bottom: 35px;
-  width: 100%;
-  
-  
+  border: none;
+  border-bottom: 0.5px solid #D0D0D0;
+
+ 
 }
 .form__wr-email{
   margin-bottom: 48px;
-
-
+  border-bottom: 0.5px solid #D0D0D0;
+}
+.form__line{
+  outline:none;
+  border: none;
+  font-family: $font;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #616161;
 }
 .form__wr-message{
- margin-bottom: 209px;
+ margin-bottom: 35px;
+ .form__message{
+  font-family: $font;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 135%;
+color: #616161;
+padding: 9px 430px 162px 20px;
+border: none;
+border: 0.5px solid #D0D0D0;
+
+ }
  
  
 }
